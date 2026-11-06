@@ -1,0 +1,36 @@
+title: "Meridian Academic Theme"
+description: "A clean, two-page theme for academic reading rooms and personal research sites."
+baseurl: ""
+url: ""
+
+author:
+  name: "Site Owner"
+  avatar: "assets/img/avatar.png"
+  bio: "One-line biography for the site owner."
+  location: "City, Country"
+  email: "owner@example.org"
+  github: "site-owner"
+  twitter: ""
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+include:
+  - _pages
+
+exclude:
+  - README.md

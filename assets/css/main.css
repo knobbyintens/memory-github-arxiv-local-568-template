@@ -1,0 +1,8 @@
+body { font-family: Georgia, 'Times New Roman', serif; margin: 0; color: #222; background: #fafafa; }
+.site-header { display: flex; justify-content: space-between; padding: 1rem 2rem; border-bottom: 1px solid #ddd; }
+.site-name { font-weight: bold; }
+nav a { margin-left: 1rem; text-decoration: none; color: #356; }
+.page-content { max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+.publication { margin-bottom: 1.5rem; }
+.pub-authors { font-style: italic; }
+.site-footer { text-align: center; padding: 2rem; color: #888; }
